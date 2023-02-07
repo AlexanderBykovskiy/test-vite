@@ -1,2 +1,2 @@
-# test-vite
-Using Vite.js
+# Test Vite
+Using Vite in React project.
