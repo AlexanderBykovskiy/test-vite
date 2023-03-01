@@ -1,6 +1,7 @@
 function App() {
+    // const a = 'Const';
     return (
-        <div>
+        <div className="class">
             +++
         </div>
     )
