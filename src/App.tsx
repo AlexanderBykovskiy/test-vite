@@ -1,10 +1,12 @@
 function App() {
-    // const a = 'Const';
-    return (
-        <div className="class">
+
+	// My comment
+	return (
+		<div className="class">
             +++
-        </div>
-    )
+		</div>
+	);
+
 }
 
-export default App
+export default App;
