@@ -23,8 +23,10 @@
     },
     "plugins": [
         "react",
+        "react-hooks",
         "@typescript-eslint",
-        "jsx-a11y"
+        "jsx-a11y",
+        "import"
     ],
     "settings": {
         "react": {
@@ -34,7 +36,8 @@
             "node": {
                 "paths": ["src"],
                 "extensions": [".js", ".jsx", ".ts", ".tsx"]
-            }
+            },
+            "typescript": {}
         }
     },
     "rules": {
@@ -50,7 +53,7 @@
         "default-case": "error",
         "default-case-last": "error",
         "eqeqeq": "warn",
-        "no-console": ["error", {"allow": ["warn", "error"]}],
+        "no-console": ["warn", {"allow": ["warn", "error"]}],
         "no-empty": "warn",
         "no-empty-function": "warn",
         "no-extra-semi": "warn",
